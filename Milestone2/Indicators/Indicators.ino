@@ -1,17 +1,30 @@
+// Modified from the Arduino NeoPixel example
+
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+ #include <avr/power.h>
+#endif
+
+#define PIN 10
+#define NUMPIXELS 1
+
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
+#define DELAYVAL 500
+
 void setup() {
-  pinMode(9, OUTPUT);
-  pinMode(8, OUTPUT);
-  pinMode(7, OUTPUT);
+#if defined(__AVR_ATtiny85__) && (F_CPU == 16000000)
+  clock_prescale_set(clock_div_1);
+#endif
+  pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
 }
 
 void loop() {
-  digitalWrite(9, HIGH);
-  delay(1000);
-  digitalWrite(9, LOW);
-  digitalWrite(8, HIGH);
-  delay(1000);
-  digitalWrite(8, LOW);
-  digitalWrite(7, HIGH);
-  delay(1000);
-  digitalWrite(7, LOW);
+  pixels.clear();
+
+  for(int i=0; i<NUMPIXELS; i++) {
+    pixels.setPixelColor(i, pixels.Color(0, 150, 0));
+    pixels.show();
+    delay(DELAYVAL);
+  }
 }
