@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.google.firebase.codelab.friendlychat.app-mergeDebugResources-37:/layout/message.xml",
+        "source": "com.google.firebase.codelab.friendlychat.app-main-40:/layout/message.xml"
+    },
+    {
+        "merged": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-mergeDebugResources-37:/layout/message.xml",
+        "source": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-main-40:/layout/message.xml"
+    },
+    {
+        "merged": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-mergeDebugResources-37:/layout/activity_sign_in.xml",
+        "source": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-main-40:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-mergeDebugResources-37:/layout/image_message.xml",
+        "source": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-main-40:/layout/image_message.xml"
+    },
+    {
+        "merged": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "/Users/admin/.gradle/daemon/8.0.2/com.google.firebase.codelab.friendlychat.app-main-40:/layout/activity_main.xml"
+    }
+]

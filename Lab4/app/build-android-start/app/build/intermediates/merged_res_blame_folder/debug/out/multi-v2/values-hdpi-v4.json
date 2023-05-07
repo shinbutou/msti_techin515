@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.google.firebase.codelab.friendlychat.app-mergeDebugResources-36:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-3/9d02f984afabcc4f3d1a0bd79ce70a7c/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

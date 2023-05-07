@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.google.firebase.codelab.friendlychat.app-mergeDebugResources-36:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-3/f0208b9a015465713a66ca69d86f23eb/transformed/material-1.9.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}
