@@ -14,7 +14,6 @@ void setup() {
 }
 
 void loop() {
-  // White: 255, 255, 255
   NeoPixel.setPixelColor(0, NeoPixel.Color(255, 255, 255)); // WHITE
   NeoPixel.show();
   delay(2000);
