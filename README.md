@@ -6,4 +6,4 @@ The repository is dedicated to a course at the University of Washington.
 
 The term project aimed to make real-time feedback system for tabletennis. The children device is based on the Seeed Studio XIAO nRF52840 Sense microcontroller. Inertial Measurement Unit (IMU), PDM Microphone are both integrated on the board itself.
 
-The parent device is based on Raspberry Pi, implementing computer vision model with a camera module.
+The parent device is based on Raspberry Pi, implementing computer vision model with a camera module. The device can register each
