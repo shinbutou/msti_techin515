@@ -8,4 +8,4 @@ The term project aimed to make real-time feedback system for tabletennis. The ch
 
 The parent device is based on Raspberry Pi, implementing computer vision model with a camera module. The device can register each shot in rallies, tracking the game automatically.
 
-We have also developed a mobile application, powered by Flutter
+We have also developed a mobile application, powered by Flutter. A score board system that can track
